@@ -186,7 +186,7 @@ def main():
         pass
 
     # 6) Recuperar todo para búsquedas manuales
-    all_data = collection.get(include=["ids", "documents", "metadatas", "embeddings"])
+    all_data = collection.get(include=["documents", "metadatas", "embeddings"])
     stored_ids = all_data["ids"]
     stored_docs = all_data["documents"]
     stored_metadatas = all_data["metadatas"]
