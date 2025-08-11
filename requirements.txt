@@ -1,0 +1,6 @@
+chromadb>=0.4.5
+sentence-transformers>=2.2.2
+numpy
+pandas
+tqdm
+scikit-learn
